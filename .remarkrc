@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "remark-preset-lint-consistent",
+    "remark-preset-lint-recommended",
+    ["remark-lint-list-item-indent", "space"],
+    ["remark-lint-code-block-style", false],
+    ["remark-lint-no-shortcut-reference-link", false],
+    ["remark-lint-no-heading-content-indent", "error"]
+  ]
+}

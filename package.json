@@ -1,0 +1,38 @@
+{
+  "name": "cs1-server-manual",
+  "version": "1.0.0",
+  "description": "cs1 server manual",
+  "main": "index.html",
+  "scripts": {
+    "serve": "./node_modules/.bin/gitbook serve",
+    "build": "./node_modules/.bin/gitbook build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "textlint": "./node_modules/.bin/textlint **/*.md",
+    "textlintFix": "./node_modules/.bin/textlint --fix",
+    "remarklint": "./node_modules/.bin/remark -u lint **/*.md --frail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cs1-lab/cs1-server-manual"
+  },
+  "author": "cs1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cs1-lab/cs1-server-manual/issues"
+  },
+  "homepage": "https://github.com/isboj/cs1-server-manual#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "prh": "^5.4.3",
+    "remark-cli": "^7.0.0",
+    "remark-lint": "^6.0.5",
+    "remark-preset-lint-consistent": "^2.0.3",
+    "remark-preset-lint-recommended": "^3.0.3",
+    "textlint": "^11.3.1",
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-prh": "^5.2.1",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0",
+    "yarn": "^1.17.3"
+  }
+}
