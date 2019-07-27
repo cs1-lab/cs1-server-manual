@@ -1,3 +1,6 @@
 _book/
-docker/jenkins_home/
+
+docker/data/*
+!docker/data/README.md
+
 node_modules/

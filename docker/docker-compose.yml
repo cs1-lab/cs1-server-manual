@@ -1,16 +1,17 @@
 version: "3"
 services:
-  master:
-    container_name: jenkins
-    image: jenkins/jenkins:lts
-    user: root
+  jenkins:
+    container_name: jenkins 
+    build: ./jenkins
     environment:
       - TZ=Asia/Tokyo
     ports:
       - 58080:8080
     volumes:
-      - ./jenkins_home:/var/jenkins_home
+      - ./data/jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/bin/docker:/usr/bin/docker
+      # ビルドファイルの保存先
+      - ./data/jenkins_build:/tmp/jenkins_build
     privileged: true
 
