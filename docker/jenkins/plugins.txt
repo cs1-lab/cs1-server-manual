@@ -73,3 +73,5 @@ ldap
 email-ext
 blueocean
 blueocean-git-pipeline
+ghprb
+
