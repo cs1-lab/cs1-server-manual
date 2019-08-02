@@ -6,8 +6,8 @@
     * [更新履歴](outline/history.md)
 
 * [マニュアル執筆の環境と準備](manual-preparation/README.md)
-    * [執筆の環境構築](manual-preparation/prepare_edit_environment.md)
-    * [執筆の準備](manual-preparation/prepare_edit_manual.md)
+    * [執筆の環境構築](manual-preparation/prepare-edit-environment.md)
+    * [執筆の準備](manual-preparation/prepare-edit-manual.md)
 
 * [サーバの準備](server-preparation/README.md)
     * [利用サーバの情報](server-preparation/server-info.md)
